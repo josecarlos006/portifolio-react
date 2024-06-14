@@ -6,23 +6,23 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const Navbar = [
         {
-            name: "Home",
+            name: "Inicio",
             link: "/",
         },
         {
-            name: "About",
-            link: "/about",
+            name: "Sobre Mim",
+            link: "/sobre-mim",
         },
         {
-            name: "Services",
-            link: "/services",
+            name: "Curriculo",
+            link: "/curriculo",
         },
         {
-            name: "Portfolio",
-            link: "/portfolio",
+            name: "Projetos",
+            link: "/projetos",
         },
         {
-            name: "Contact",
+            name: "Contato",
             link: "/contact",
         },
     ];
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <Link to="/" className="text-3xl text-white font-semibold tracking-[0.1rem]">
-                                Dev. <span className="text-green-600">José Carlos</span>
+                                Dev. <span className="text-red-600">José Carlos</span>
                             </Link>
                             <div className="md:hidden">
                                 <button

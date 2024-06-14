@@ -13,7 +13,7 @@ const Routear = () => {
             <div className="p-4">
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/sobre-mim" element={<AboutPage />} />
                 </Routes>
             </div>
         </Router>
