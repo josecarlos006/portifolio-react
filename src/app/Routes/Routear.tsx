@@ -3,6 +3,8 @@ import HomePage from '../pages/HomePage'
 import AboutPage from '../pages/AboutPage'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
+import CurriculoPage from '../pages/CurriculoPage'
+import ProjetosPage from '../pages/ProjetosPage'
 
 
 const Routear = () => {
@@ -14,6 +16,8 @@ const Routear = () => {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/sobre-mim" element={<AboutPage />} />
+                    <Route path="/curriculo" element={<CurriculoPage />} />
+                    <Route path="/projetos" element={<ProjetosPage />} />
                 </Routes>
             </div>
         </Router>
